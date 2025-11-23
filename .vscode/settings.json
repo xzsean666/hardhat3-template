@@ -1,0 +1,10 @@
+{
+    "[solidity]": {
+        "editor.defaultFormatter": "nomicfoundation.hardhat-solidity",
+        "editor.formatOnSave": true
+    },
+    "solidity.remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "forge-std/=node_modules/forge-std/src/"
+    ]
+}
