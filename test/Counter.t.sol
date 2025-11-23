@@ -13,8 +13,8 @@ contract CounterTest is Test {
 
     function setUp() public {
         counter = new Counter();
-        vm.createSelectFork("https://rpc.minato.soneium.org", 17_000_000);
-        console.log("Forked Ethereum at block 17,000,000");
+        // vm.createSelectFork("https://rpc.minato.soneium.org", 17_000_000);
+        // console.log("Forked Ethereum at block 17,000,000");
     }
 
     function test_InitialValue() public {
